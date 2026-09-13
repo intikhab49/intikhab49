@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:6E40C9,100:00D4FF&height=210&section=header&text=Intikhab%20Azam&fontSize=60&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Voice%20AI%20Agents%20%C2%B7%20RAG%20%26%20LLM%20Apps%20%C2%B7%20Automation&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Intikhab Azam — AI Engineer, Voice AI Agents, RAG and Automation"/>
+<img src="assets/header.svg" width="100%" alt="Intikhab Azam — AI Engineer, Voice AI Agents, RAG and Automation"/>
 
-<a href="https://github.com/intikhab49"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=00D4FF&center=true&vCenter=true&width=760&lines=I+build+AI+voice+agents+that+handle+real+phone+calls;RAG+%26+LLM+apps+that+survive+production;Lead-gen+engines%2C+CRMs+%26+automation+pipelines;Cutting+LLM+costs+without+cutting+quality" alt="AI voice agents, RAG and LLM apps, automation pipelines, LLM cost optimization"/></a>
+<a href="https://github.com/intikhab49"><img src="assets/typing.svg" alt="AI voice agents, RAG and LLM apps, automation pipelines, LLM cost optimization"/></a>
 
 <p>
   <img src="https://img.shields.io/badge/AI%20Engineer-6E40C9?style=for-the-badge&logo=probot&logoColor=white" alt="AI Engineer"/>
