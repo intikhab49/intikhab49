@@ -1,7 +1,7 @@
-name: snake
+name: live-stats
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 3 * * *"
   workflow_dispatch:
 jobs:
   build:
@@ -9,14 +9,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: generate snake
-        uses: Platane/snk@v3
-        id: snake
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          github_user_name: intikhab49
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+          python-version: "3.12"
+      - name: render live stats card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: dist
+        run: python .github/scripts/field_log.py
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
