@@ -6,9 +6,9 @@
 
 <h1 align="center">Intikhab Azam · AI/ML Engineer, Researcher & Systems Architect</h1>
 
-<p align="center"><b>Voice AI agents · RAG and LLM evaluation · multi-tenant SaaS · agentic coding · open-source AI tools</b></p>
+<p align="center"><b>Voice AI agents · RAG and LLM evaluation · multi-tenant SaaS · agentic coding · open-source developer tools</b></p>
 
-I build AI systems that have to work in production: **voice agents** that answer real phone calls, **RAG and LLM agents** judged by cost per correct answer, and **multi-tenant SaaS platforms** with row-level security and field-level encryption. I also publish the research behind them, including the numbers that went against me. Based in Pakistan, working with US teams, **open to contract work**.
+I build AI systems that have to work in production: **voice agents** that answer real phone calls, **RAG and LLM agents** judged by cost per correct answer, and **multi-tenant SaaS platforms** with row-level security and field-level encryption. I also publish the research behind them, including the numbers that went against me, and open-source tools that catch problems before they ship: Microsoft gov-cloud gaps, broken Make.com scenarios, Postgres images that crash on older CPUs and packages an AI coding agent made up. Based in Pakistan, working with US teams, **open to contract work**.
 
 <img src="assets/road.svg" width="100%" alt="Animated Pakistani truck driving the Karakoram Highway past kilometre stones marked voice AI, RAG, LLM evals, ML, SaaS and open source."/>
 
@@ -22,8 +22,20 @@ I build AI systems that have to work in production: **voice agents** that answer
 - **Multi-tenant SaaS architecture**: Postgres row-level security, BFF auth, field-level encryption, event-driven jobs
 - **Agentic coding**: Claude Code, Codex and DeepSeek working in parallel behind spec files, a claims board and test gates
 - **Automation and data pipelines**: n8n, Cloudflare Workers, lead generation, scraping and enrichment
+- **Developer tools and CI checks**: CLIs, GitHub Actions and MCP servers on PyPI and npm, for Microsoft gov clouds (GCC High, Azure Government), Make.com, Postgres images and AI-written code
 
 ## Open-source AI projects
+
+### New in October 2026
+
+| Tool | What it does | Get it |
+| --- | --- | --- |
+| [fairfax](https://github.com/intikhab49/fairfax) | **Is it available in GCC High?** Checks a Microsoft 365 GCC, GCC High or DoD and Azure Government plan against Microsoft's own feature availability tables (633 features, every row cited), and finds commercial endpoints in your code | `pip install fairfax` · [website](https://intikhab49.github.io/fairfax/) · [GitHub Action](https://github.com/marketplace/actions/fairfax-gov-cloud-check) |
+| [blueprint-runtime](https://github.com/intikhab49/blueprint-runtime) | **Test Make.com scenarios offline.** Runs exported Make (Integromat) blueprints locally and replays real Make runs, so a broken mapping fails in CI instead of in production. 71 of 79 real runs reproduced exactly | `npm install -g blueprint-runtime` · [website](https://intikhab49.github.io/blueprint-runtime/) |
+| [lifeboat](https://github.com/intikhab49/lifeboat) | **A Bitnami PostgreSQL alternative.** Bitnami's PostgreSQL and PostgreSQL HA (repmgr) images rebuilt from upstream source: same paths, scripts and env vars, drop-in for the Bitnami Helm charts | `ghcr.io/intikhab49/lifeboat` |
+| [pgvector-cpu-check](https://github.com/intikhab49/pgvector-cpu-check) | **Which CPU crashes your Postgres image?** Runs it on 7 CPUs, from a 2008 Intel to Raspberry Pi and Graviton2, and names the faulting instruction (SIGILL) | [GitHub Action](https://github.com/marketplace/actions/pgvector-cpu-check) · [website](https://intikhab49.github.io/pgvector-cpu-check/) |
+| [pdf-cpu-bench](https://github.com/intikhab49/pdf-cpu-bench) | **Best PDF parser for RAG without a GPU.** 9 PDF-to-Markdown parsers on a plain 4-core CPU: olmocr-bench accuracy, seconds per page, peak RAM, install size | Benchmark and results |
+| [whofetched](https://github.com/intikhab49/whofetched) | **Which AI actually read your page?** Secret canary links plus a Cloudflare Worker log, tested on ChatGPT, Claude, Gemini, Grok, Perplexity and Copilot | Cloudflare Worker |
 
 <p align="center">
   <a href="https://github.com/intikhab49/open-jev-typed-decision-engine"><img src="assets/cards/open-jev.svg" width="49%" alt="Open Jev: open-source typed decision engine. A 150M model reproduces TypeSafe Jev with calibrated confidence: 0.697 vs 0.727 accuracy, 2.5x better calibrated, 4x faster, free."/></a>
@@ -42,6 +54,12 @@ I build AI systems that have to work in production: **voice agents** that answer
 
 | Repository | What it is | Stack |
 | --- | --- | --- |
+| [fairfax](https://github.com/intikhab49/fairfax) | Is it available in GCC High? Checks a Microsoft 365 GCC / GCC High / DoD and Azure Government plan against Microsoft's own availability tables, scans code for wrong-cloud endpoints | Python · PyPI · GitHub Action · MCP |
+| [blueprint-runtime](https://github.com/intikhab49/blueprint-runtime) | Offline test runner for Make.com (Integromat) scenario blueprints: replays real Make runs and catches broken mappings in CI | TypeScript · npm · CLI |
+| [lifeboat](https://github.com/intikhab49/lifeboat) | Drop-in Bitnami PostgreSQL and PostgreSQL HA (repmgr) images rebuilt from upstream source, amd64 + arm64 | Docker · Helm · GHCR |
+| [pgvector-cpu-check](https://github.com/intikhab49/pgvector-cpu-check) | Runs a Postgres image on 7 CPUs and names the instruction that crashes it (SIGILL) | Python · QEMU · GitHub Action |
+| [pdf-cpu-bench](https://github.com/intikhab49/pdf-cpu-bench) | 9 PDF-to-Markdown parsers for RAG on a 4-core CPU: accuracy, seconds per page, RAM, install size | Python · Docling · MinerU · Marker |
+| [whofetched](https://github.com/intikhab49/whofetched) | Proves which AI fetched your page with secret canary links and a Cloudflare Worker log | JavaScript · Cloudflare Workers |
 | [open-jev-typed-decision-engine](https://github.com/intikhab49/open-jev-typed-decision-engine) | Open reproduction of TypeSafe Jev: a 150M typed decision engine (noul / choice / score) with calibrated confidence | Python · PyTorch · ModernBERT |
 | [pushback](https://github.com/intikhab49/pushback) | Measures how often you correct your Claude Code agent, drafts CLAUDE.md rules, exports DPO pairs | Python · CLI · PyPI |
 | [minio-from-source](https://github.com/intikhab49/minio-from-source) | MinIO server + mc built from source at pinned releases, multi-arch images on GHCR | Docker · GitHub Actions |
@@ -101,11 +119,13 @@ I take on **contract and freelance work**:
 - **System architecture**: multi-tenant SaaS design, auth and data security, scaling and cost reviews
 - **Agentic coding setups**: Claude Code skills, MCP servers and CI gates for AI-written code
 - **Automation**: n8n workflows, lead generation, scraping, CRM and payment integrations
+- **Microsoft gov cloud**: GCC, GCC High and Azure Government feature, endpoint and sign-in checks before you build
+- **Make.com and no-code QA**: regression tests for Make scenarios that run offline and in CI
 
 <a href="https://x.com/AzamIntikhab"><img src="assets/cta.svg" width="100%" alt="Open to contract work: voice AI agents, RAG, LLM evals, multi-tenant SaaS and automation. Message @AzamIntikhab on X. Horn do, rasta lo: honk, and I'll make way."/></a>
 
 <div align="center">
 <sub>Every image on this page is hand-coded, animated SVG in the style of Pakistani truck art, drawn by <a href=".github/scripts/build_art.py">build_art.py</a>. <b>Dekh magar pyar se</b>: look, but with love.</sub>
 <br/><br/>
-<sub>AI engineer · machine learning engineer · LLM engineer · AI researcher · systems architect · voice AI agent developer · Vapi · Twilio · RAG · agentic RAG · LLM evaluation · calibration · Claude Code · MCP · multi-tenant SaaS · Python · PyTorch · FastAPI · NestJS · remote AI engineer in Pakistan</sub>
+<sub>AI engineer · machine learning engineer · LLM engineer · AI researcher · systems architect · voice AI agent developer · Vapi · Twilio · RAG · agentic RAG · LLM evaluation · calibration · Claude Code · MCP · multi-tenant SaaS · Python · PyTorch · FastAPI · NestJS · open-source developer tools · GCC High · Azure Government · Microsoft 365 GCC · Make.com · Integromat · PostgreSQL · pgvector · Bitnami alternative · Docker · GitHub Actions · MCP server · PDF parsing for RAG · remote AI engineer in Pakistan</sub>
 </div>
