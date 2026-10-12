@@ -8,7 +8,7 @@
 
 <p align="center"><b>Voice AI agents · RAG and LLM evaluation · multi-tenant SaaS · agentic coding · open-source developer tools</b></p>
 
-I build AI systems that have to work in production: **voice agents** that answer real phone calls, **RAG and LLM agents** judged by cost per correct answer, and **multi-tenant SaaS platforms** with row-level security and field-level encryption. I also publish the research behind them, including the numbers that went against me, and open-source tools that catch problems before they ship: Microsoft gov-cloud gaps, broken Make.com scenarios, Postgres images that crash on older CPUs and packages an AI coding agent made up. Based in Pakistan, working with US teams, **open to contract work**.
+I build AI systems that have to work in production: **voice agents** that answer real phone calls, **RAG and LLM agents** judged by cost per correct answer, and **multi-tenant SaaS platforms** with row-level security and field-level encryption. I also publish the research behind them, including the numbers that went against me, and open-source tools that catch problems before they ship: Microsoft gov-cloud gaps, broken Make.com scenarios, Postgres images that crash on older CPUs and packages an AI coding agent made up. Based in Pakistan, working with US teams, **open to contract work**. Website: [intikhab49.github.io](https://intikhab49.github.io/).
 
 <img src="assets/road.svg" width="100%" alt="Animated Pakistani truck driving the Karakoram Highway past kilometre stones marked voice AI, RAG, LLM evals, ML, SaaS and open source."/>
 
