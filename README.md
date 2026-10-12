@@ -49,7 +49,7 @@ I build AI systems that have to work in production: **voice agents** that answer
 </p>
 
 <details>
-<summary><b>All public repositories, with details</b></summary>
+<summary><b>All current repositories, with details</b></summary>
 <br/>
 
 | Repository | What it is | Stack |
