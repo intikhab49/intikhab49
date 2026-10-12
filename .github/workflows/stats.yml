@@ -17,7 +17,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT_DIR: dist
-        run: python .github/sky/field_log.py
+        run: python .github/press/field_log.py
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

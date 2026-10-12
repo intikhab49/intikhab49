@@ -1,6 +1,6 @@
 """Text as SVG outlines, so every word renders the same in any browser and inside <img>.
 
-Fonts are SIL OFL, fetched from google/fonts on first use into .github/sky/fonts (gitignored).
+Fonts are SIL OFL, fetched from google/fonts on first use into .github/press/fonts (gitignored).
 Shaping is HarfBuzz, so kerning, ligatures and the Urdu Nastaliq name come out right.
 """
 import os
@@ -14,10 +14,11 @@ FONT_DIR = os.path.join(HERE, "fonts")
 GF = "https://raw.githubusercontent.com/google/fonts/main/"
 FONTS = {
     # name: (path in google/fonts, variation axes)
-    "display": ("ofl/cormorantgaramond/CormorantGaramond[wght].ttf", {"wght": 600}),
-    "display-bold": ("ofl/cormorantgaramond/CormorantGaramond[wght].ttf", {"wght": 700}),
-    "serif": ("ofl/ebgaramond/EBGaramond[wght].ttf", {"wght": 500}),
-    "serif-bold": ("ofl/ebgaramond/EBGaramond[wght].ttf", {"wght": 700}),
+    "mast": ("ofl/unifrakturmaguntia/UnifrakturMaguntia-Book.ttf", {}),
+    "head": ("ofl/playfairdisplay/PlayfairDisplay[wght].ttf", {"wght": 900}),
+    "head-bold": ("ofl/playfairdisplay/PlayfairDisplay[wght].ttf", {"wght": 700}),
+    "body": ("ofl/librecaslontext/LibreCaslonText[wght].ttf", {"wght": 400}),
+    "body-bold": ("ofl/librecaslontext/LibreCaslonText[wght].ttf", {"wght": 700}),
     "mono": ("ofl/ibmplexmono/IBMPlexMono-Medium.ttf", {}),
     "urdu": ("ofl/notonastaliqurdu/NotoNastaliqUrdu[wght].ttf", {"wght": 700}),
 }
@@ -84,6 +85,8 @@ def _shape(text, name, features=None):
 
 
 def width(text, name, size, tracking=0.0):
+    if not text:
+        return 0.0
     _, upem, _, pos = _shape(text, name)
     return sum(p.x_advance for p in pos) * size / upem + tracking * size * max(len(pos) - 1, 0)
 

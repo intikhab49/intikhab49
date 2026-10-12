@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://intikhab49.github.io/"><img src="assets/hero.svg" width="100%" alt="Intikhab Azam, AI/ML engineer, researcher and systems architect. A painted night: the Milky Way rising over a mountain lake, its pink core above the left ridge, and someone on a rock at the right shore looking up at it through a small telescope. Stars twinkle and the odd meteor crosses the sky."/></a>
+<a href="https://intikhab49.github.io/"><img src="assets/front.svg" width="100%" alt="The Intikhab Times, a newspaper front page about Intikhab Azam, AI/ML engineer, researcher and systems architect. Lead story: Microsoft quietly edits a Teams page and fairfax catches it the same day; the gov-cloud checker re-reads 33 Microsoft sources every week and keeps a Wayback copy of each. Also: blueprint-runtime reproduces 71 of 79 real Make.com runs, pgvector-cpu-check finds 3 build bugs in 13 Postgres images, Open Jev loses on accuracy and wins on calibration, agentic RAG costs 2.5 times more per correct answer."/></a>
 
 </div>
 
@@ -12,7 +12,7 @@ I build AI systems that have to work in production: **voice agents** that answer
 
 ## What I build
 
-<img src="assets/worlds.svg" width="100%" alt="What I build, as six painted planets with moons going round them: voice AI agents (Vapi, Twilio, CRMs), RAG and LLM agents, LLM evals, multi-tenant SaaS (Postgres RLS, BFF auth), agentic coding (Claude Code, MCP) and developer tools (PyPI, npm, GitHub Actions)."/>
+<img src="assets/services.svg" width="100%" alt="Services directory: AI voice agents (Vapi, Twilio, CRMs, payments, SMS), RAG and LLM agents, LLM evals and research, multi-tenant SaaS architecture (Postgres RLS, BFF auth, encryption), agentic coding (Claude Code, Codex, DeepSeek), automation and data pipelines (n8n, Cloudflare Workers), developer tools and CI checks (PyPI, npm, GitHub Actions, MCP)."/>
 
 - **AI voice agents**: Vapi and Twilio receptionists and outbound callers, wired into CRMs, payments and SMS
 - **RAG and LLM agents**: knowledge-base chatbots with tool calling and memory, evaluated by cost per correct answer
@@ -26,6 +26,19 @@ I build AI systems that have to work in production: **voice agents** that answer
 
 ### New in October 2026
 
+<p align="center">
+  <a href="https://github.com/intikhab49/fairfax"><img src="assets/clips/fairfax.svg" width="49%" alt="Newspaper clipping, GOV CLOUD: Is it available in GCC High? Ask fairfax first. Checks a Microsoft 365 GCC, GCC High or DoD and Azure Government plan against Microsoft's own availability tables: 633 features, every row cited. pip install fairfax."/></a>
+  <a href="https://github.com/intikhab49/blueprint-runtime"><img src="assets/clips/blueprint-runtime.svg" width="49%" alt="Newspaper clipping, AUTOMATION: Test your Make.com scenarios before Make does. Replays real Make runs; 71 of 79 reproduced exactly. npm install -g blueprint-runtime."/></a>
+  <a href="https://github.com/intikhab49/lifeboat"><img src="assets/clips/lifeboat.svg" width="49%" alt="Newspaper clipping, CONTAINERS: Bitnami's Postgres images, rebuilt from source. A drop-in for the Bitnami Helm charts, every source pinned, amd64 and arm64."/></a>
+  <a href="https://github.com/intikhab49/pgvector-cpu-check"><img src="assets/clips/pgvector-cpu-check.svg" width="49%" alt="Newspaper clipping, INFRASTRUCTURE: Which CPU crashes your Postgres image? Runs it on 7 CPU models and names the faulting instruction. 13 images audited, 3 build bugs found."/></a>
+  <a href="https://github.com/intikhab49/pdf-cpu-bench"><img src="assets/clips/pdf-cpu-bench.svg" width="49%" alt="Newspaper clipping, BENCHMARK: The best PDF parser for RAG, without a GPU. 9 parsers on a 4-core CPU; MinerU's CPU tier leads at 74.6%."/></a>
+  <a href="https://github.com/intikhab49/whofetched"><img src="assets/clips/whofetched.svg" width="49%" alt="Newspaper clipping, INVESTIGATION: Which AI actually read your page? Canary links and a Cloudflare Worker log, tested on ChatGPT, Claude, Gemini, Grok, Perplexity and Copilot."/></a>
+</p>
+
+<details>
+<summary><b>Details and install commands</b></summary>
+<br/>
+
 | Tool | What it does | Get it |
 | --- | --- | --- |
 | [fairfax](https://github.com/intikhab49/fairfax) | **Is it available in GCC High?** Checks a Microsoft 365 GCC, GCC High or DoD and Azure Government plan against Microsoft's own feature availability tables (633 features, every row cited), and finds commercial endpoints in your code | `pip install fairfax` · [website](https://intikhab49.github.io/fairfax/) · [GitHub Action](https://github.com/marketplace/actions/fairfax-gov-cloud-check) |
@@ -35,15 +48,17 @@ I build AI systems that have to work in production: **voice agents** that answer
 | [pdf-cpu-bench](https://github.com/intikhab49/pdf-cpu-bench) | **Best PDF parser for RAG without a GPU.** 9 PDF-to-Markdown parsers on a plain 4-core CPU: olmocr-bench accuracy, seconds per page, peak RAM, install size | Benchmark and results |
 | [whofetched](https://github.com/intikhab49/whofetched) | **Which AI actually read your page?** Secret canary links plus a Cloudflare Worker log, tested on ChatGPT, Claude, Gemini, Grok, Perplexity and Copilot | Cloudflare Worker |
 
+</details>
+
+### From the archive
+
 <p align="center">
-  <a href="https://github.com/intikhab49/fairfax"><img src="assets/cards/fairfax.svg" width="49%" alt="fairfax: is it available in GCC High? Checks a Microsoft gov-cloud plan against Microsoft's own tables, every row cited. 633 features, on PyPI and the GitHub Marketplace. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/blueprint-runtime"><img src="assets/cards/blueprint-runtime.svg" width="49%" alt="blueprint-runtime: test Make.com scenarios offline. Replays real Make runs and catches broken mappings before you deploy. 71 of 79 real runs reproduced. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/pgvector-cpu-check"><img src="assets/cards/pgvector-cpu-check.svg" width="49%" alt="pgvector-cpu-check: which CPU crashes your Postgres image? Runs it on 7 CPU models and names the faulting instruction. 13 images audited, 3 build bugs found. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/diff-gate"><img src="assets/cards/diff-gate.svg" width="49%" alt="diff-gate: fails your coding agent's diff when an import resolves to nothing, before attackers register the name. Claude Code skill and GitHub Action. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/lifeboat"><img src="assets/cards/lifeboat.svg" width="49%" alt="lifeboat: Bitnami's PostgreSQL and PostgreSQL HA images rebuilt from upstream source as drop-ins for the Helm charts. Every source pinned, amd64 and arm64. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/open-jev-typed-decision-engine"><img src="assets/cards/open-jev.svg" width="49%" alt="Open Jev: an open 150M typed decision engine with calibrated confidence. 0.697 vs TypeSafe Jev's 0.727, 2.5x better calibrated. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/rag-cost-curve"><img src="assets/cards/rag-cost-curve.svg" width="49%" alt="rag-cost-curve: cost per correct answer for four RAG designs on multi-hop questions. Agentic RAG: +32.5 exact match at 2.5x the cost. Drawn as a constellation in a painted nebula."/></a>
-  <a href="https://github.com/intikhab49/vapi-voice-agent-crm"><img src="assets/cards/voice-agent-crm.svg" width="49%" alt="vapi-voice-agent-crm: call ops for AI voice agents, with webhooks, a predictive dialer, auto-redial and Stripe-verified conversions. Drawn as a constellation in a painted nebula."/></a>
+  <a href="https://github.com/intikhab49/open-jev-typed-decision-engine"><img src="assets/clips/open-jev.svg" width="49%" alt="Newspaper clipping, RESEARCH: An open decision engine that reports the number it lost. 0.697 vs TypeSafe Jev's 0.727, 2.5x better calibrated, 4x faster."/></a>
+  <a href="https://github.com/intikhab49/diff-gate"><img src="assets/clips/diff-gate.svg" width="49%" alt="Newspaper clipping, SECURITY: Attackers register the packages your AI invents. diff-gate fails your coding agent's diff on imports that resolve to nothing."/></a>
+  <a href="https://github.com/intikhab49/rag-cost-curve"><img src="assets/clips/rag-cost-curve.svg" width="49%" alt="Newspaper clipping, RESEARCH: What agentic RAG really costs per right answer. +32.5 exact match at 2.5x the cost per correct answer."/></a>
+  <a href="https://github.com/intikhab49/pushback"><img src="assets/clips/pushback.svg" width="49%" alt="Newspaper clipping, DEVELOPER TOOLS: How often do you correct your coding agent? Measures it from Claude Code transcripts and drafts CLAUDE.md rules. pip install pushback."/></a>
+  <a href="https://github.com/intikhab49/minio-from-source"><img src="assets/clips/minio-from-source.svg" width="49%" alt="Newspaper clipping, CONTAINERS: A free MinIO image, built from source at pinned, commit-verified releases. Multi-arch, smoke-tested."/></a>
+  <a href="https://github.com/intikhab49/vapi-voice-agent-crm"><img src="assets/clips/voice-agent-crm.svg" width="49%" alt="Newspaper clipping, VOICE AI: Call ops for AI voice agents. Webhooks, a predictive dialer, auto-redial and Stripe-verified conversions."/></a>
 </p>
 
 <details>
@@ -108,11 +123,11 @@ I design systems end to end, from the data model to the deploy pipeline. Pattern
 
 ## Tech stack
 
-<img src="assets/catalogue.svg" width="100%" alt="Tech stack as a page from a star catalogue. AI and LLMs: Claude, Claude Code, MCP, OpenAI, Codex, Gemini, DeepSeek, OpenRouter, LangChain, Hugging Face, NotebookLM. Voice: Vapi, Twilio, ElevenLabs, Deepgram, Retell AI. Machine learning: PyTorch, scikit-learn, LightGBM, XGBoost, ONNX, NumPy, pandas, OpenCV, Jupyter, Colab. Backend: Python, FastAPI, Flask, Node.js, NestJS, Express, Prisma, Drizzle, PostgreSQL, Neon, MySQL, SQLite, MongoDB, Stripe, Resend. Frontend: TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, Astro, Streamlit, better-auth. Infra and automation: Docker, Kubernetes, NGINX, Prometheus, GitHub Actions, GHCR, Cloudflare Workers, Vercel, MinIO, Linux, Bash, n8n, Playwright, Jest."/>
+<img src="assets/classifieds.svg" width="100%" alt="Classifieds, tools of the trade. AI and LLMs: Claude, Claude Code, MCP, OpenAI, Codex, Gemini, DeepSeek, OpenRouter, LangChain, Hugging Face, NotebookLM. Voice: Vapi, Twilio, ElevenLabs, Deepgram, Retell AI. Machine learning: PyTorch, scikit-learn, LightGBM, XGBoost, ONNX, NumPy, pandas, OpenCV, Jupyter, Colab. Backend: Python, FastAPI, Flask, Node.js, NestJS, Express, Prisma, Drizzle, PostgreSQL, Neon, MySQL, SQLite, MongoDB, Stripe, Resend. Frontend: TypeScript, JavaScript, React, Next.js, Vite, Tailwind CSS, Astro, Streamlit, better-auth. Infra and automation: Docker, Kubernetes, NGINX, Prometheus, GitHub Actions, GHCR, Cloudflare Workers, Vercel, MinIO, Linux, Bash, n8n, Playwright, Jest."/>
 
-## The last twelve months
+## Markets: the last twelve months
 
-<img src="https://raw.githubusercontent.com/intikhab49/intikhab49/output/stats.svg" width="100%" alt="GitHub activity over the last twelve months, painted as a night sky: total contributions, public repositories, stars and longest streak, with every week drawn as a star; the busier the week, the higher and brighter it sits."/>
+<img src="https://raw.githubusercontent.com/intikhab49/intikhab49/output/stats.svg" width="100%" alt="Markets: GitHub activity over the last twelve months, set as a newspaper market report: contributions, public repositories, stars and longest streak on a split-flap board, and weekly contributions as a bar chart with a four-week average."/>
 
 <sub>Redrawn every day by this repo's own GitHub Action. No third-party stats service.</sub>
 
@@ -129,10 +144,10 @@ I take on **contract and freelance work**:
 - **Microsoft gov cloud**: GCC, GCC High and Azure Government feature, endpoint and sign-in checks before you build
 - **Make.com and no-code QA**: regression tests for Make scenarios that run offline and in CI
 
-<a href="https://x.com/AzamIntikhab"><img src="assets/contact.svg" width="100%" alt="Open to contract work: voice AI agents, RAG and LLM evals, multi-tenant SaaS, automation and developer tools. Message @AzamIntikhab on X. Painted as the sky just before sunrise over dark hills."/></a>
+<a href="https://x.com/AzamIntikhab"><img src="assets/advert.svg" width="100%" alt="Advertisement: available for contract work. Voice AI agents, RAG and LLM evals, multi-tenant SaaS, automation and developer tools. Message @AzamIntikhab on X. Based in Pakistan, working with US teams."/></a>
 
 <div align="center">
-<sub>Every image on this page is painted by code in <a href=".github/sky">.github/sky</a>: each scene starts as a soft field of light and is repainted with tens of thousands of brush strokes, then the stars are set to twinkle. No stock art, no image generator.</sub>
+<sub>Every image on this page is set like a newspaper by code in <a href=".github/press">.github/press</a>: real type on newsprint, with every headline and figure taken from the repositories themselves. No stock art, no image generator.</sub>
 <br/><br/>
 <sub>AI engineer · machine learning engineer · LLM engineer · AI researcher · systems architect · voice AI agent developer · Vapi · Twilio · RAG · agentic RAG · LLM evaluation · calibration · Claude Code · MCP · multi-tenant SaaS · Python · PyTorch · FastAPI · NestJS · open-source developer tools · GCC High · Azure Government · Microsoft 365 GCC · Make.com · Integromat · PostgreSQL · pgvector · Bitnami alternative · Docker · GitHub Actions · MCP server · PDF parsing for RAG · remote AI engineer in Pakistan</sub>
 </div>
