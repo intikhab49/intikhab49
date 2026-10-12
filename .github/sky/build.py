@@ -48,7 +48,7 @@ def hero():
     p.append(svg.twinkles(bright, 0.5, 4))
     p.append(svg.meteors([(980, 70, 152, 150, 11, 2.5), (520, 40, 158, 120, 17, 9), (1180, 210, 148, 110, 23, 15)]))
     for i, (x, y, rw) in enumerate([(330, 628, 70), (410, 668, 46), (300, 712, 54), (470, 640, 30), (380, 740, 40)]):
-        p.append(f'<ellipse class="shimmer" cx="{x}" cy="{y}" rx="{rw}" ry="1.3" fill="#f4cfd9" filter="url(#blur2)" '
+        p.append(f'<ellipse class="shimmer" cx="{x}" cy="{y}" rx="{rw}" ry="1.3" fill="#f4cfd9" filter="url(#blur2)" opacity="0" '
                  f'style="animation-duration:{4.5 + i * 1.6:.1f}s;animation-delay:-{i * 1.3:.1f}s"/>')
     p.append(svg.text("Intikhab Azam", "display-bold", 108, 70, 150, CREAM, glow="#070a1e"))
     p.append(svg.text("AI/ML engineer, researcher & systems architect", "serif", 32, 73, 204, MIST, glow="#070a1e"))
