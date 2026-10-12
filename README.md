@@ -4,11 +4,13 @@
 
 </div>
 
+<p align="center"><a href="https://intikhab49.github.io/"><b>Portfolio: intikhab49.github.io</b></a> · client case studies, every project, the stack · <a href="https://x.com/AzamIntikhab">@AzamIntikhab on X</a></p>
+
 <h1 align="center">Intikhab Azam · AI/ML Engineer, Researcher & Systems Architect</h1>
 
 <p align="center"><b>Voice AI agents · RAG and LLM evaluation · multi-tenant SaaS · agentic coding · open-source developer tools</b></p>
 
-I build AI systems that have to work in production: **voice agents** that answer real phone calls, **RAG and LLM agents** judged by cost per correct answer, and **multi-tenant SaaS platforms** with row-level security and field-level encryption. I also publish the research behind them, including the numbers that went against me, and open-source tools that catch problems before they ship: Microsoft gov-cloud gaps, broken Make.com scenarios, Postgres images that crash on older CPUs and packages an AI coding agent made up. Based in Pakistan, working with US teams, **open to contract work**. Website: [intikhab49.github.io](https://intikhab49.github.io/).
+I build AI systems that have to work in production: **voice agents** that answer real phone calls, **RAG and LLM agents** judged by cost per correct answer, and **multi-tenant SaaS platforms** with row-level security and field-level encryption. I also publish the research behind them, including the numbers that went against me, and open-source tools that catch problems before they ship: Microsoft gov-cloud gaps, broken Make.com scenarios, Postgres images that crash on older CPUs and packages an AI coding agent made up. Based in Pakistan, working with US teams, **open to contract work**. Portfolio, with client case studies and every project: **[intikhab49.github.io](https://intikhab49.github.io/)**.
 
 ## What I build
 
@@ -133,7 +135,7 @@ I design systems end to end, from the data model to the deploy pipeline. Pattern
 
 ## Work with me
 
-I take on **contract and freelance work**:
+I take on **contract and freelance work**. Client case studies are on my portfolio, **[intikhab49.github.io](https://intikhab49.github.io/)**:
 
 - **AI voice agents**: receptionists, outbound callers, call-to-CRM and payment flows on Vapi and Twilio
 - **RAG chatbots and LLM agents**: knowledge bases, tool calling, memory and evaluation

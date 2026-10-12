@@ -40,8 +40,8 @@ def front():
     M = 44
     # ears and masthead
     p.append(P.rule(M, 250, 40, 1) + P.rule(M, 250, 112, 1))
-    p.append(P.text("Open source", "head-bold", 21, M + 103, 70, INK, "middle"))
-    p.append(P.text("MIT licensed · free", "body", 15, M + 103, 96, INK, "middle"))
+    p.append(P.text("Portfolio", "head-bold", 21, M + 103, 70, INK, "middle"))
+    p.append(P.text("intikhab49.github.io", "body", 15, M + 103, 96, INK, "middle"))
     p.append(P.rule(W - 250, W - M, 40, 1) + P.rule(W - 250, W - M, 112, 1))
     p.append(P.text("Open to contract", "head-bold", 21, W - M - 103, 70, RED, "middle"))
     p.append(P.text("message @AzamIntikhab on X", "body", 15, W - M - 103, 96, INK, "middle"))
@@ -148,6 +148,7 @@ def front():
         "pgvector-cpu-check: 3 build bugs in 13 Postgres images",
         "pdf-cpu-bench: 9 PDF parsers for RAG, timed on a 4-core CPU",
         "whofetched: which AI really fetched your page",
+        "portfolio, client case studies and every project: intikhab49.github.io",
         "open to contract work: message @AzamIntikhab on X"]))
     write("front.svg", p)
 

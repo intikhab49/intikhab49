@@ -137,7 +137,8 @@ def advert(paper_uri):
     p.append(P.rule(W / 2 - 300, W / 2 + 300, 288, 1))
     handle = "Message @AzamIntikhab on X"
     p.append(P.text(handle, "mono", 30, W / 2, 338, P.RED, "middle"))
-    p.append(P.text("Based in Pakistan · working with US teams · remote", "body", 17, W / 2, 374, "#5b564d", "middle"))
+    p.append(P.text("Portfolio and case studies: intikhab49.github.io", "body-bold", 18, W / 2, 374, P.INK, "middle"))
+    p.append(P.text("Based in Pakistan · working with US teams · remote", "body", 16, W / 2, 400, "#5b564d", "middle"))
     p.append("</g>")
     hw = T.width("@AzamIntikhab", "mono", 30)
     x0 = W / 2 - T.width(handle, "mono", 30) / 2 + T.width("Message ", "mono", 30)
