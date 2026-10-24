@@ -56,6 +56,15 @@ ARCHIVE = [
      "Node.js · Express · Twilio · Stripe", "VOICE"),
 ]
 
+# Added after the lists above, so every older clipping keeps its index and with it its tilt and torn
+# edge. The README still shows these first, under New.
+LATEST = [
+    ("goalline", "goalline", "DEVELOPER TOOLS", "Did your coding agent fix the code, or the test?", "or the test?",
+     "Replays the old tests on the new code, so a test edited to pass shows up with its exact old and new "
+     "values. On click's last 200 merged PRs: 84 edited a test, 19 flagged.",
+     "npx github:intikhab49/goalline", "MIT"),
+]
+
 
 def torn(x0, y0, x1, y1, rng, step=9, amp=3.2):
     """A polygon with torn top and bottom edges and slightly uneven sides."""

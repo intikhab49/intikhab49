@@ -29,6 +29,7 @@ I build AI systems that have to work in production: **voice agents** that answer
 ### New in October 2026
 
 <p align="center">
+  <a href="https://github.com/intikhab49/goalline"><img src="assets/clips/goalline.svg" width="49%" alt="Newspaper clipping, DEVELOPER TOOLS: Did your coding agent fix the code, or the test? Replays the old tests on the new code and shows every moved expectation with its old and new values. 84 of click's last 200 PRs edited a test; 19 flagged."/></a>
   <a href="https://github.com/intikhab49/fairfax"><img src="assets/clips/fairfax.svg" width="49%" alt="Newspaper clipping, GOV CLOUD: Is it available in GCC High? Ask fairfax first. Checks a Microsoft 365 GCC, GCC High or DoD and Azure Government plan against Microsoft's own availability tables: 633 features, every row cited. pip install fairfax."/></a>
   <a href="https://github.com/intikhab49/blueprint-runtime"><img src="assets/clips/blueprint-runtime.svg" width="49%" alt="Newspaper clipping, AUTOMATION: Test your Make.com scenarios before Make does. Replays real Make runs; 71 of 79 reproduced exactly. npm install -g blueprint-runtime."/></a>
   <a href="https://github.com/intikhab49/lifeboat"><img src="assets/clips/lifeboat.svg" width="49%" alt="Newspaper clipping, CONTAINERS: Bitnami's Postgres images, rebuilt from source. A drop-in for the Bitnami Helm charts, every source pinned, amd64 and arm64."/></a>
@@ -43,6 +44,7 @@ I build AI systems that have to work in production: **voice agents** that answer
 
 | Tool | What it does | Get it |
 | --- | --- | --- |
+| [goalline](https://github.com/intikhab49/goalline) | **Did your coding agent fix the code, or the test?** Replays the old tests on the new code, so a test edited to pass shows up with its exact old and new values; signed receipts skip re-running what already passed. Jest, Vitest, pytest | `npx github:intikhab49/goalline` |
 | [fairfax](https://github.com/intikhab49/fairfax) | **Is it available in GCC High?** Checks a Microsoft 365 GCC, GCC High or DoD and Azure Government plan against Microsoft's own feature availability tables (633 features, every row cited), and finds commercial endpoints in your code | `pip install fairfax` · [website](https://intikhab49.github.io/fairfax/) · [GitHub Action](https://github.com/marketplace/actions/fairfax-gov-cloud-check) |
 | [blueprint-runtime](https://github.com/intikhab49/blueprint-runtime) | **Test Make.com scenarios offline.** Runs exported Make (Integromat) blueprints locally and replays real Make runs, so a broken mapping fails in CI instead of in production. 71 of 79 real runs reproduced exactly | `npm install -g blueprint-runtime` · [website](https://intikhab49.github.io/blueprint-runtime/) |
 | [lifeboat](https://github.com/intikhab49/lifeboat) | **A Bitnami PostgreSQL alternative.** Bitnami's PostgreSQL and PostgreSQL HA (repmgr) images rebuilt from upstream source: same paths, scripts and env vars, drop-in for the Bitnami Helm charts | `ghcr.io/intikhab49/lifeboat` |

@@ -156,7 +156,7 @@ def front():
 def clips():
     import clippings as C
     paper = P.jpeg(P.newsprint(640, 440, 21, fold=False), 76)
-    for i, spec in enumerate(C.NEW + C.ARCHIVE):
+    for i, spec in enumerate(C.NEW + C.ARCHIVE + C.LATEST):
         write(f"clips/{spec[1]}.svg", C.clipping(i, spec[0], *spec[2:], paper))
 
 
